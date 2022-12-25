@@ -33,7 +33,7 @@
 57D:\GoIT\Homeworks\goit-js-hw-08\node_modules\htmlnano\lib133156764948661957 1
 80D:\GoIT\Homeworks\goit-js-hw-08\node_modules\htmlparser2\lib\WritableStream.d.ts133156764949471931 0
 105D:\GoIT\Homeworks\goit-js-hw-08\node_modules\posthtml\node_modules\posthtml-parser\dist\chunk.2UQLUWPH.js133156764946103562 0
-36D:\GoIT\Homeworks\goit-js-hw-08\dist133162847191810622 1
+36D:\GoIT\Homeworks\goit-js-hw-08\dist133164442325166051 1
 79D:\GoIT\Homeworks\goit-js-hw-08\node_modules\svgo\plugins\convertShapeToPath.js133156764949779892 0
 92D:\GoIT\Homeworks\goit-js-hw-08\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts133156764950423909 0
 76D:\GoIT\Homeworks\goit-js-hw-08\node_modules\source-map-js\lib\quick-sort.js133156764947599561 0
@@ -72,7 +72,7 @@
 102D:\GoIT\Homeworks\goit-js-hw-08\node_modules\@parcel\workers\test\integration\workerfarm\master-sum.js133156764949878764 0
 74D:\GoIT\Homeworks\goit-js-hw-08\node_modules\@parcel\workers\src\Worker.js133156764950580323 0
 83D:\GoIT\Homeworks\goit-js-hw-08\node_modules\type-fest\source\conditional-pick.d.ts133156764948541740 0
-53D:\GoIT\Homeworks\goit-js-hw-08\src\js\03-feedback.js133162847190893060 0
+53D:\GoIT\Homeworks\goit-js-hw-08\src\js\03-feedback.js133164442539205720 0
 39D:\GoIT\Homeworks\goit-js-hw-08\.sassrc133156762593444148 0
 75D:\GoIT\Homeworks\goit-js-hw-08\node_modules\@parcel\runtime-js\lib\helpers133156764949948315 1
 70D:\GoIT\Homeworks\goit-js-hw-08\node_modules\reusify\benchmarks\fib.js133156764948101222 0
@@ -4672,7 +4672,7 @@
 72D:\GoIT\Homeworks\goit-js-hw-08\node_modules\@lezer\common\dist\index.js133156764947096077 0
 74D:\GoIT\Homeworks\goit-js-hw-08\node_modules\@jridgewell\set-array\LICENSE133156764945726517 0
 72D:\GoIT\Homeworks\goit-js-hw-08\node_modules\@lezer\common\dist\mix.d.ts133156764948126167 0
-64D:\GoIT\Homeworks\goit-js-hw-08\dist\03-feedback.5440b4f4.js.map133162847191789364 0
+64D:\GoIT\Homeworks\goit-js-hw-08\dist\03-feedback.5440b4f4.js.map133164442325166051 0
 74D:\GoIT\Homeworks\goit-js-hw-08\node_modules\@lezer\common\dist\parse.d.ts133156764948331305 0
 68D:\GoIT\Homeworks\goit-js-hw-08\node_modules\@jridgewell\gen-mapping133156764947468159 1
 66D:\GoIT\Homeworks\goit-js-hw-08\node_modules\@jridgewell\set-array133156764947325506 1
@@ -4798,7 +4798,7 @@
 64D:\GoIT\Homeworks\goit-js-hw-08\dist\01-gallery.7d68834f.css.map133162779886228672 0
 52D:\GoIT\Homeworks\goit-js-hw-08\dist\01-gallery.html133162779886401902 0
 57D:\GoIT\Homeworks\goit-js-hw-08\dist\02-video.a74b541c.js133162779886339855 0
-60D:\GoIT\Homeworks\goit-js-hw-08\dist\03-feedback.5440b4f4.js133162847191789364 0
+60D:\GoIT\Homeworks\goit-js-hw-08\dist\03-feedback.5440b4f4.js133164442325081375 0
 61D:\GoIT\Homeworks\goit-js-hw-08\dist\03-feedback.ba2d0753.css133162779886306697 0
 65D:\GoIT\Homeworks\goit-js-hw-08\dist\03-feedback.ba2d0753.css.map133162779886306697 0
 53D:\GoIT\Homeworks\goit-js-hw-08\dist\03-feedback.html133162779886306697 0
