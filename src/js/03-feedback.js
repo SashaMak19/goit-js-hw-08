@@ -6,33 +6,23 @@ form.addEventListener('input', throttle(onInput, 500));
 form.addEventListener('submit', onClickButton);
 
 const LOCAL_DATA = 'feedback-form-state';
-const obj = localStorage.getItem(LOCAL_DATA);
-const parsedObj = JSON.parse(obj);
-
-saveInput();
+const date = {};
 
 function onInput(e) {
-  localStorage.setItem(
-    LOCAL_DATA,
-    JSON.stringify({
-      email: form.elements.email.value,
-      message: form.elements.message.value,
-    })
-  );
+  date[e.target.name] = e.target.value;
 
-  parsedObj[e.target.name] = e.target.value;
-}
-
-function saveInput() {
-  if (obj) {
-    form.elements.email.value = parsedObj.email || '';
-    form.elements.message.value = parsedObj.message || '';
-  }
+  const stringifyDate = JSON.stringify(date);
+  localStorage.setItem(LOCAL_DATA, stringifyDate);
 }
 
 function onClickButton(e) {
+  const parsedData = JSON.parse(localStorage.getItem(LOCAL_DATA));
+  console.log(parsedData);
+
   e.preventDefault();
-  e.currentTarget.reset();
   localStorage.removeItem(LOCAL_DATA);
-  console.log(parsedObj);
+  e.currentTarget.reset();
+
+  delete date.email;
+  delete date.message;
 }
