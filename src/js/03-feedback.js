@@ -8,6 +8,11 @@ form.addEventListener('submit', onClickButton);
 const LOCAL_DATA = 'feedback-form-state';
 const date = {};
 
+if (localStorage.getItem(LOCAL_DATA)) {
+  const parsedData = JSON.parse(localStorage.getItem(LOCAL_DATA));
+  form.elements.email.value = parsedData.email || '';
+  form.elements.message.value = parsedData.message;
+}
 function onInput(e) {
   date[e.target.name] = e.target.value;
 
